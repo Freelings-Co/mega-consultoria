@@ -269,45 +269,60 @@ header img {
 
 .banner {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
 }
 
+.title-box {
+    position: absolute;
+    width: 100%;
+    top: 13em;
+    left: 2em;
+    height: 30em;
+
+
+}
+
 .title-banner {
+    position: absolute;
+    top: -0.1em;
     font-size: 6vw;
     color: rgb(0, 89, 255);
     z-index: 2;
-    top: 30%;
+    /* top: 30%;
     left: 2%;
-    position: absolute;
+    position: absolute; */
 
 }
 
 .dream-title {
+    position: absolute;
     z-index: 2;
+    top: 0.7em;
     font-size: 6vw;
     color: white;
+    /* position: absolute;
     top: 41%;
-    left: 2%;
+    left: 2%; */
     color: #03c2eb;
 
-    position: absolute;
+
 
 }
 
 
-
-
 .description {
+    position: absolute;
+    top: 5.5em;
     z-index: 2;
     text-align: start;
     width: 28%;
     font-size: 2vw;
     line-height: 1.1em;
     color: rgb(0, 89, 255);
-    top: 55%;
+    /* top: 55%;
     left: 2.3%;
-    position: absolute;
+    position: absolute; */
     font-family: "Oswald", sans-serif;
 
 }
@@ -1748,6 +1763,7 @@ app-float:hover {
 .btn-enviar i {
     font-size: 18px;
 }
+
 .footer-link {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
@@ -1795,23 +1811,34 @@ app-float:hover {
         margin-bottom: 20px;
     }
 
+    .title-box {
+        position: absolute;
+        width: 100%;
+        top: 13em;
+        left: 1em;
+        
+    }
+
+
     .title-banner {
         font-size: 17vw;
-        top: 18%;
-        left: 3%;
+
+        /* top: 18%;
+        left: 3%; */
     }
 
     .dream-title {
         font-size: 17vw;
-        top: 26%;
-        left: 3%;
+        /* top: 26%;
+        left: 3%; */
     }
 
     .description {
         width: 95%;
         font-size: 6.5vw;
-        top: 37%;
-        left: 4%;
+        top: 5em;
+        /* top: 37%;
+        left: 4%; */
     }
 
 
